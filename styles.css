@@ -1,0 +1,63 @@
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    display: border-box;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: Outfit, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* get rid of scrollbar */
+}
+
+
+.qrcode-container{
+    background-color: hsl(0, 0%, 100%);
+    width: 290px;
+    border-radius: 20px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 24px 30px hsl(220, 35%, 85%);
+}
+    
+
+img{
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+h1{
+    color: hsl(218, 14%, 22%);
+    font-weight: 700;
+    width: 260px;
+    text-align: center;
+    margin: 24px 0 16px 0;
+    font-size: 22px;
+}
+
+p{
+    font-size: 16px;
+    color: hsl(220, 15%, 55%);
+    width: 260px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.attribution{ 
+    font-size: 11px; 
+    text-align: center; 
+    position: fixed;
+    bottom: 1rem;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%); 
+}
